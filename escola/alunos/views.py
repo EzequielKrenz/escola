@@ -1,3 +1,5 @@
 from django.shortcuts import render
+from .models import Aluno
 
-# Create your views here.
+def cadastrar_aluno(request):
+    return render(request, 'CadAluno.html')
