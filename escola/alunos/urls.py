@@ -1,8 +1,9 @@
+# alunos/urls.py
+
 from django.urls import path
 from . import views
 
 urlpatterns = [
-    # Quando o usuário acessar http://.../cadastro/
-    # o Django vai chamar a função cadastrar_aluno
-    path('cadastro/', views.cadastrar_aluno, name='cadastro_aluno'),
+    path('cadastro/', views.cadastrar_aluno, name='cadastrar_aluno'),
+    path('lista/', views.listar_alunos, name='listar_alunos'), # <--- NOVA ROTA
 ]
