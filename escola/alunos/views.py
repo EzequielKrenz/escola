@@ -1,10 +1,7 @@
-# alunos/views.py
-
 from django.shortcuts import render, redirect 
 from django import forms
 from .models import Aluno
 
-# Sua classe AlunoForm...
 class AlunoForm(forms.ModelForm):
     class Meta:
         model = Aluno
@@ -21,7 +18,6 @@ def cadastrar_aluno(request):
         form = AlunoForm(request.POST)
         if form.is_valid():
             form.save()
-            # AQUI: A linha de redirect foi removida.
             # O formulário será re-exibido vazio para um novo cadastro.
             form = AlunoForm() 
     else:
