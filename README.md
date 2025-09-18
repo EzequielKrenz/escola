@@ -13,6 +13,6 @@ Cauê Grazziotin Borga, Ezequiel Collet Moreira Krenz e Samuel Collet Moreira Kr
 
 ## Tecnologias Utilizadas
 
-Linguagem: Python, HTML
-Framework: Django
-Biblioteca: Bootstrap
+- Linguagem: Python, HTML
+- Framework: Django
+- Biblioteca: Bootstrap
