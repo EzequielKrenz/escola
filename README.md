@@ -8,9 +8,7 @@ Exibe todos os alunos cadastrados em uma tabela HTML.
 
 ## Informações 
 
-Cauê Grazziotin Borga
-Ezequiel Collet Moreira Krenz
-Samuel Collet Moreira Krenz
+Cauê Grazziotin Borga, Ezequiel Collet Moreira Krenz e Samuel Collet Moreira Krenz
 
 
 ## Tecnologias Utilizadas
