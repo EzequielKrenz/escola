@@ -6,7 +6,7 @@ Exibe todos os alunos cadastrados em uma tabela HTML.
 
 
 
-## InformaçÕes 
+## Informações 
 
 Cauê Grazziotin Borga
 Ezequiel Collet Moreira Krenz
